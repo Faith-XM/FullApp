@@ -1,0 +1,56 @@
+$base-font-size:1rem;
+$font-sizes:(xxs:0.8571, //12px
+  xs:1, //14px
+  s:1.1429, //16px
+  xxm:1.3571, //19px
+  xm:1.4286, //20px
+  m:1.5714, //22px
+  xxl:1.7143, //24px
+  xl:2.1429, //30px
+  l:2.2143, //31px
+  mmml:2.5714, //36px
+  mml:3.4286, //48px
+  mmll:4, //56px
+  ml:5.1429, //72px
+);
+//定义颜色
+$colors:("primary":#f47a2d,
+  "primary-1":#f4b62c,
+  "primary-2":#f7f7f7,
+  "white":#fff,
+  "white-1":#f2f2f2,
+  "gray":#e5e5e5,
+  "dark-1":#333333,
+  "black":#000,
+);
+
+$border-color:map-get($colors, 'gray');
+
+$flex-jc:(start:flex-start,
+  end:flex-end,
+  center:center,
+  between:space-between,
+  around:space-around,
+);
+
+$flex-ai:(start:flex-start,
+  end:flex-end,
+  center:center,
+  stretch:stretch,
+);
+
+// spacing
+$spaceing-types:(m:margin,
+  p:padding);
+
+$spaceing-directions:(t:top,
+  r:right,
+  b:bottom,
+  l:left);
+$space-base-size:1rem;
+$spaceing-sizes:(0:0,
+  1:0.25,
+  2:0.5,
+  3:1,
+  4:1.5,
+);
